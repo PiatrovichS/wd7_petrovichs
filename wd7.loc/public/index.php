@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Все ОК</h1>
+<h1>Laravel - Все ОК!</h1>
 </body>
 </html>
