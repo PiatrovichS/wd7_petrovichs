@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Laravel - Все ОК!</h1>
+<h1>ФИО - Петрович Сергей Николаевич</h1>
 </body>
 </html>
