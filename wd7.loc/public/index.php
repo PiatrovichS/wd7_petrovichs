@@ -8,6 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Laravel - Все ОК!</h1>
-</body>
+<?php
+echo "Петрович Сергей Николаевич";
+?>
+</body>>
 </html>
