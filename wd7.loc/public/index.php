@@ -1,15 +1,22 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <?php include('link.html') ?>
+    <link rel="stylesheet" href="resources/css/styles.scss">
+    <link rel="stylesheet" href="resources/css/null.scss">
 </head>
 <body>
+    <?php include ('header.html')?>
+
+<br>
+
 <?php
+
 echo "Петрович Сергей Николаевич";
 ?>
-</body>>
+
+
+<?php include ('footer.html') ?>
+<?php include ('script.html')?>
+</body>
 </html>
