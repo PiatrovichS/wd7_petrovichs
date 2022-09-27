@@ -110,6 +110,8 @@
       <excludeFolder url="file://$MODULE_DIR$/wd7.loc/vendor/psr/event-dispatcher" />
       <excludeFolder url="file://$MODULE_DIR$/wd7.loc/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/wd7.loc/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/wd7.loc/storage/app" />
+      <excludeFolder url="file://$MODULE_DIR$/wd7.loc/storage/framework" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
