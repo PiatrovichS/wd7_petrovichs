@@ -7,11 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="PiatrovichS">
     <title>PiatrovichS in IT</title>
-    <link rel="stylesheet" href="resources/css/app.css">
-
+    <link rel="stylesheet" href="scss/styles.css">
 </head>
 <body>
-
     <?php include ('header.html')?>
 <!--    --><?php //include __DIR__.'/header.html'?>
 
