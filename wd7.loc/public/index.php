@@ -1,18 +1,20 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta name="description" content="PiatrovichS">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="PiatrovichS">
-    <title>PiatrovichS in IT</title>
-    <link rel="stylesheet" href="scss/styles.css">
+    <?php include __DIR__. '/link.html'?>
 </head>
     <body>
          <?php include __DIR__. '/header.html'?>
 
-            @yield('main_content')
+         <main class="main">
+             <div class="container">
+                 <section class="main__title">
+                     <h1 class="main__title-training">Петрович Сергей Николаевич </h1>
+                 </section>
+
+             </div>
+         </main>
+
 
 
         <?php include __DIR__. '/footer.html' ?>

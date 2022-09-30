@@ -44,6 +44,13 @@ body {
   background-color: #4a5568;
   display: flex;
   color: aliceblue; }
+  .header a {
+    text-decoration: none;
+    color: aliceblue; }
+  .header a:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline; }
   .header__nav {
     height: 80px;
     width: 1000px;
