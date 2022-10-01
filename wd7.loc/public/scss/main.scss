@@ -1,0 +1,108 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__title-homework{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        font-size: 24px;
+        color: black;
+        font-weight: bold;
+    }
+    &__homework-1{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    &__title-homework-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height:100px;
+        font-size: 24px;
+        color: black;
+        font-weight: bold;
+    }
+    &__decision-1{
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        gap: 1em;
+    }
+    &__task-1{
+        width: 50%;
+    }
+    &__title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+    }
+    &__dec-1{
+        width: 50%;
+    }
+    &__decision-1__ul{
+        margin-top: 16px;
+    }
+    &__dec-1__li{
+        margin: 16px 0;
+    }
+    &__homework-2{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    &__title-homework-2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height:100px;
+        font-size: 24px;
+        color: black;
+        font-weight: bold;
+    }
+    &__decision-2{
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        gap: 1em;
+    }
+    &__task-2{
+        width: 50%;
+    }
+    &__dec-2{
+        width: 50%;
+    }
+    &__decision-2__ul{
+        margin-top: 16px;
+    }
+    &__dec-2__li{
+        margin: 16px 0;
+    }
+
+
+
+    /*Лекции */
+    &__title-training{
+        margin: 24px 0;
+    }
+
+    /*Лекции */
+}
