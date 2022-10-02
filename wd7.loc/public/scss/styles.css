@@ -138,15 +138,23 @@ body {
     display: flex;
     align-items: start;
     justify-content: start;
+    flex-direction: column;
     gap: 1em; }
   .main__task-2 {
-    width: 50%; }
+    width: 100%; }
   .main__dec-2 {
-    width: 50%; }
+    width: 100%; }
   .main__decision-2__ul {
     margin-top: 16px; }
   .main__dec-2__li {
     margin: 16px 0; }
+  .main__table {
+    border-collapse: collapse;
+    text-align: center; }
+    .main__table td {
+      border: 1px solid #2d3748;
+      width: 10%;
+      height: 25px; }
   .main__title-training {
     margin: 24px 0; }
 

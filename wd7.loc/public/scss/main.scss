@@ -82,19 +82,30 @@
         display: flex;
         align-items: start;
         justify-content: start;
+        flex-direction: column;
         gap: 1em;
     }
     &__task-2{
-        width: 50%;
+        width: 100%;
     }
     &__dec-2{
-        width: 50%;
+        width: 100%;
     }
     &__decision-2__ul{
         margin-top: 16px;
     }
     &__dec-2__li{
         margin: 16px 0;
+    }
+    &__table{
+        border-collapse: collapse;
+        text-align: center;
+
+        td{
+        border: 1px solid #2d3748;
+            width: 10%;
+            height: 25px;
+        }
     }
 
 
