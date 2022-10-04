@@ -80,6 +80,67 @@
 
             </div>
         </section>
+        <section class="training-04-10">
+            <div class="start">
+                <h1>Лекция 04 10 2022</h1>
+                <br>
+
+                <?php
+//                    declare(strict_types=1); Включение строгой типизация
+                    function countWordsInText ($text, string $t, $check, $int=true){
+                        return 222;
+                    }
+                    $word= countWordsInText('sss','ss', check: 123);
+                    echo $word;
+
+                    $a=1;
+                    $x=2;
+                    $fn = function ($var) use($x){
+                        return $var**$x;
+                    };
+                    echo "<br>";
+
+                    function dayWeeks(int $day){
+
+                                switch ($day) {
+                                    case 1:
+                                        return "Сегодня понедельник!";
+                                        break;
+                                    case 2:
+                                        return "Сегодня вторник!";
+                                        break;
+                                    case 3:
+                                        return "Сегодня среда!";
+                                        break;
+                                    case 4:
+                                        return "Сегодня четверг!";
+                                        break;
+                                    case 5:
+                                        return "Сегодня пятница!";
+                                        break;
+                                    case 6:
+                                        return "Сегодня суббота!";
+                                        break;
+                                    case 7:
+                                        return "Сегодня воскресенье!";
+                                        break;
+                                    default: return 'Опомнись! В неделе всего 7 дней! Внеси день от 1 до 7.';
+                            }
+                    }
+                    $day=dayWeeks(5);
+                    echo $day;
+                echo "<br>";
+
+//                function correctText($text){
+//                    $text= trim($text);
+//                    while ((mb))
+//                }
+                ?>
+
+
+            </div>
+        </section>
+
     </div>
 </main>
 
